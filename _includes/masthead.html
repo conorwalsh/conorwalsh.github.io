@@ -28,6 +28,22 @@
         </a>
       </div>
     {% endif %}
+	{% if user.blog %}
+      <div class="{{ metadata_styles }}">
+        {% octicon link height:20 class:"mr-2 v-align-middle" fill:{{ icon_color }} aria-label:Website %}
+        <a href="{{ user.blog }}" {% if site.style == 'dark' %}class="text-white"{% endif %} target="_blank">
+          {{ user.blog }}
+        </a>
+      </div>
+    {% endif %}
+	
+      <div class="{{ metadata_styles }}">
+        {% octicon beaker height:20 class:"mr-2 v-align-middle" fill:{{ icon_color }} aria-label:Blog %}
+        <a href="http://conor.engineer/" {% if site.style == 'dark' %}class="text-white"{% endif %} target="_blank">
+          http://conor.engineer
+        </a>
+      </div>
+    
     {% if user.location %}
       <div class="{{ metadata_styles }} {% if site.style == 'dark' %}text-white{% endif %}">
         {% octicon location height:20 class:"mr-2 v-align-middle" fill:{{ icon_color }} aria-label:Location %}

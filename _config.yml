@@ -1,5 +1,5 @@
 layout: sidebar
-style: light
+style: dark
 
 plugins:
   - jekyll-octicons
@@ -16,12 +16,11 @@ defaults:
       layout: "post"
 
 topics:
-  - name: CSS
-    web_url: https://github.com/topics/css
-    image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/css/css.png
+  - name: Networking
+    image_url: //conorwalsh.net/img/icons/cloud_networking.png
 
-  - name: Web design
+  - name: Internet of Things
+    image_url: //conorwalsh.net/img/icons/iot-01.png
 
-  - name: Sass
-    web_url: https://github.com/topics/sass
-    image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/sass/sass.png
+  - name: Telecommunications
+    image_url: //conorwalsh.net/img/icons/telecomms-01.png
